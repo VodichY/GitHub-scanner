@@ -1,2 +1,2 @@
 # GitHub-scanner
-GitHub scanner v1
+GitHub scanner
