@@ -28,6 +28,10 @@ export class GitHubIntegrationRepository {
       );
       const files = contentsResponse.data;
 
+      // console.log(
+      //   repoName + ' ' + path + ' ' + files.length + ' ' + new Date().getTime(),
+      // );
+
       for (const file of files) {
         if (file.type === 'file') {
           fileCount++;
